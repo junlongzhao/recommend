@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e7dbcf8f-7c0b-43ab-ba86-eb288898bf5f" name="lab106" url="http://localhost">
+        <fileTransfer host="localhost" port="10106" rootFolder="/home/lab1008" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="10106" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="3810d65e-f49c-433e-95a1-9bd63fbdcb97" name="lab154" url="http://localhost">
+        <fileTransfer host="localhost" port="10154" rootFolder="/home/lab1008" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="10154" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
